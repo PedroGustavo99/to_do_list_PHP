@@ -37,8 +37,13 @@ Você pode executar esses comandos no MySQL Workbench ou qualquer outro cliente 
 ## Executando o Aplicativo
 
 1. Inicie o servidor Apache e o MySQL no XAMPP.
-2. Clone este repositório para o diretório `htdocs` do seu servidor web.
-3. Navegue até o diretório do aplicativo no seu navegador. <br>
+2. Clone este repositório para o diretório `htdocs` do seu servidor web (xampp).
+3. Navegue até o diretório do aplicativo no seu navegador.
+   - http://localhost/nome_do_repositorio
+5. Exemplo de comando para clonar o repositório (substitua `URL_do_repositorio` pelo URL real do seu repositório):
+
+   ```bash
+   git clone URL_do_repositorio
 
 ---
 
