@@ -2,6 +2,8 @@
 
 Este é um simples aplicativo de lista de tarefas (To-Do List) desenvolvido em PHP com banco de dados MySQL. O aplicativo permite criar, editar, excluir e marcar tarefas como concluídas.
 
+<img src="./src/img/to_do_list.png" alt="Nome da Imagem" width="850" height="450">
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado em sua máquina:
