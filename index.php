@@ -7,10 +7,8 @@ $sql = $pdo->query("SELECT * FROM task ORDER BY id ASC");
 
 if ($sql->rowCount() > 0) {
     $tasks = $sql->fetchAll(PDO::FETCH_ASSOC);
-    #var_dump($tasks);
 }
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -42,7 +40,8 @@ if ($sql->rowCount() > 0) {
                     <input 
                         type="checkbox" 
                         name="progress" 
-                        class="progress" 
+                        class="progress <?php echo $task ['completed'] ? 'done' : '' ?>" 
+                        data-task-id="<?php echo $task ['id']?>"
                         <?php echo $task['completed'] ? 'checked' : '' ?>
                     >
 
