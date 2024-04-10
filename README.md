@@ -52,3 +52,4 @@ O aplicativo possui as seguintes funcionalidades:
 ## Em Constante Melhoria
 
 Este projeto está em constante melhoria e novas funcionalidades serão adicionadas no futuro.
+
